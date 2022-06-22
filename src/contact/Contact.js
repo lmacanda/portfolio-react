@@ -2,5 +2,9 @@ import React from "react";
 import "./contact.css";
 
 export default function Contact() {
-  return <div className="contact">Contact</div>;
+  return (
+    <div id="contact" className="contact">
+      <p>Contact</p>
+    </div>
+  );
 }

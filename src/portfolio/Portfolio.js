@@ -2,5 +2,9 @@ import React from "react";
 import "./portfolio.css";
 
 export default function Portfolio() {
-  return <div className="portfolio">Portfolio</div>;
+  return (
+    <section id="portfolio" className="portfolio">
+      <p>Portfolio</p>
+    </section>
+  );
 }
