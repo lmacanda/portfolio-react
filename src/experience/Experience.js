@@ -13,60 +13,84 @@ export default function Experience() {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsShieldFillCheck />
-              <h4>HTML</h4>
-              <small className="text-light">Junior</small>
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>HTML</h4>
+                <small className="text-light">Junior</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsShieldFillCheck />
-              <h4>CSS</h4>
-              <small className="text-light">Junior</small>
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>CSS</h4>
+                <small className="text-light">Junior</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsShieldFillCheck />
-              <h4>JavaScript</h4>
-              <small className="text-light">Junior</small>
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Junior</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsShieldFillCheck />
-              <h4>React</h4>
-              <small className="text-light">Junior</small>
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">Junior</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsShieldFillCheck />
-              <h4>Bootstrap</h4>
-              <small className="text-light">Junior</small>
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>Bootstrap</h4>
+                <small className="text-light">Junior</small>
+              </div>
             </article>
           </div>
         </div>
         {/* END OF FRONTEND */}
 
-        <div className="experience-__background"></div>
-        <article className="experience__details">
-          <BsShieldFillCheck />
-          <h4>HTML</h4>
-          <small className="text-light">Junior</small>
-        </article>
-        <article className="experience__details">
-          <BsShieldFillCheck />
-          <h4>CSS</h4>
-          <small className="text-light">Junior</small>
-        </article>
-        <article className="experience__details">
-          <BsShieldFillCheck />
-          <h4>JavaScript</h4>
-          <small className="text-light">Junior</small>
-        </article>
-        <article className="experience__details">
-          <BsShieldFillCheck />
-          <h4>React</h4>
-          <small className="text-light">Junior</small>
-        </article>
-        <article className="experience__details">
-          <BsShieldFillCheck />
-          <h4>Bootstrap</h4>
-          <small className="text-light">Junior</small>
-        </article>
+        <div className="experience-__background">
+          <h3>Background Skills</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>HTML</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>CSS</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>Bootstrap</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   );
