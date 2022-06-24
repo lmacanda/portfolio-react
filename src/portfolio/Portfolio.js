@@ -14,16 +14,22 @@ export default function Portfolio() {
             <img src={IMG1} alt="app" />
           </div>
           <h3>portfolio item title</h3>
-          <a href="https://github.com/lmacanda" className="btn" target="blank">
-            Github
-          </a>
-          <a
-            href="https://spiffy-starship-85e67d.netlify.app/"
-            className="btn btn-primary"
-            target="blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/lmacanda"
+              className="btn"
+              target="blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://spiffy-starship-85e67d.netlify.app/"
+              className="btn btn-primary"
+              target="blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -31,16 +37,22 @@ export default function Portfolio() {
             <img src={IMG1} alt="app" />
           </div>
           <h3>portfolio item title</h3>
-          <a href="https://github.com/lmacanda" className="btn" target="blank">
-            Github
-          </a>
-          <a
-            href="https://spiffy-starship-85e67d.netlify.app/"
-            className="btn btn-primary"
-            target="blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/lmacanda"
+              className="btn"
+              target="blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://spiffy-starship-85e67d.netlify.app/"
+              className="btn btn-primary"
+              target="blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -48,16 +60,22 @@ export default function Portfolio() {
             <img src={IMG1} alt="app" />
           </div>
           <h3>portfolio item title</h3>
-          <a href="https://github.com/lmacanda" className="btn" target="blank">
-            Github
-          </a>
-          <a
-            href="https://spiffy-starship-85e67d.netlify.app/"
-            className="btn btn-primary"
-            target="blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/lmacanda"
+              className="btn"
+              target="blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://spiffy-starship-85e67d.netlify.app/"
+              className="btn btn-primary"
+              target="blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -65,16 +83,22 @@ export default function Portfolio() {
             <img src={IMG1} alt="app" />
           </div>
           <h3>portfolio item title</h3>
-          <a href="https://github.com/lmacanda" className="btn" target="blank">
-            Github
-          </a>
-          <a
-            href="https://spiffy-starship-85e67d.netlify.app/"
-            className="btn btn-primary"
-            target="blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/lmacanda"
+              className="btn"
+              target="blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://spiffy-starship-85e67d.netlify.app/"
+              className="btn btn-primary"
+              target="blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
