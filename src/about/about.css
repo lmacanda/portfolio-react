@@ -41,17 +41,21 @@
   }
 
   .about__me {
-    width: 50%;
-    margin-top: 0 auto 3rem;
+    width: 25%;
+    margin: auto;
   }
 
   .about__content p {
-    margin: 1rem 1.5rem 1.5rem 1.5rem;
+    margin: 4rem 1.5rem 1rem 1.5rem;
   }
 
   .header__socials,
   .scroll__down {
     display: none;
+  }
+
+  section {
+    margin-top: 4rem;
   }
 }
 
