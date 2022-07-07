@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section id="about" className="about">
       <h5>Get to Know</h5>
-      <h2>ABOUT ME</h2>
+      <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">

@@ -139,4 +139,13 @@ img {
   section > h2 {
     margin-bottom: 2rem;
   }
+
+  .header__container h1 {
+    color: var(--color-bg);
+  }
+
+  .header__container h5 {
+    color: var(--color-bg);
+    text-transform: uppercase;
+  }
 }
