@@ -15,7 +15,7 @@ export default function Navbar() {
       <a
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
-        href="/#"
+        href="!#"
       >
         <AiOutlineHome />
       </a>

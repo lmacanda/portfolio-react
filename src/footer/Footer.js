@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <ul className="permalinks">
         <li>
-          <a href="/#" rel="noopener noreferrer">
+          <a href="!#" rel="noopener noreferrer">
             Home
           </a>
         </li>
