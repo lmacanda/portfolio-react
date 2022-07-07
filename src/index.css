@@ -58,6 +58,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+body h2 {
+  text-transform: uppercase;
+}
+
 section {
   margin-top: 8rem;
 }
