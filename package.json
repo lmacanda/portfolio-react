@@ -1,5 +1,6 @@
 {
   "name": "portfolio-react",
+  "homepage": "http://dreamy-centaur-63269a.netlify.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
