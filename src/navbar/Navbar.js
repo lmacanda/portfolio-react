@@ -1,5 +1,5 @@
 import React from "react";
-import "./navbar.css";
+import "./Navbar.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { MdOutlineWork } from "react-icons/md";

@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./header/Header";
-import Navbar from "./navbar/Navbar";
+import Navbar from "./Navbar/Navbar";
 import About from "./about/About";
 import Experience from "./experience/Experience";
 import Footer from "./footer/Footer";
