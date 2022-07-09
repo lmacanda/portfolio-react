@@ -68,7 +68,7 @@ header {
 }
 
 /******************* MEDIA QUERIES (SMALL DEVICES) ******************** */
-@media screen and (max-width: 600px) {
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   header {
     height: 29vh;
     background: var(--color-primary);
@@ -87,23 +87,22 @@ header {
   }
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  header {
-    height: 29vh;
-    background: var(--color-primary);
-    padding: 2rem 0 2rem 0;
-    margin-top: 0rem;
-    margin-bottom: 7rem;
-  }
-}
-
 @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   header {
-    height: 29vh;
+    height: 35vh;
     background: var(--color-primary);
     padding: 2rem 0 2rem 0;
     margin-top: 0rem;
-    margin-bottom: 7rem;
+    margin-bottom: 14rem;
+  }
+
+  .cta {
+    margin-top: 3.5rem;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
   }
 }
 
@@ -114,5 +113,14 @@ header {
     padding: 2rem 0 2rem 0;
     margin-top: 0rem;
     margin-bottom: 7rem;
+  }
+
+  .cta {
+    margin-top: 3.5rem;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
   }
 }
