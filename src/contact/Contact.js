@@ -31,7 +31,7 @@ export default function Contact() {
           <article className="contact__option">
             <AiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>laura.pantano2@gmail.com</h5>
+            <h4>laura.pantano2@gmail.com</h4>
             <a href="mailto:laura.pantano2@gmail.com" target="blank">
               Send Email
             </a>
@@ -39,7 +39,7 @@ export default function Contact() {
           <article className="contact__option">
             <AiOutlinePhone className="contact__option-icon" />
             <h4>Telephone Number</h4>
-            <h5>+351 915061359</h5>
+            <h4>+351 915061359</h4>
           </article>
         </div>
         {/*END OF CONTACT OPTIONS */}

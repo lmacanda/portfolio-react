@@ -2,8 +2,8 @@ import React from "react";
 import "./Navbar.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
-import { MdOutlineWork } from "react-icons/md";
-import { BsBook } from "react-icons/bs";
+import { BsShieldFillCheck } from "react-icons/bs";
+import { GiWallet } from "react-icons/gi";
 import { BsTelephone } from "react-icons/bs";
 import { useState } from "react";
 
@@ -31,14 +31,14 @@ export default function Navbar() {
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <MdOutlineWork />
+        <BsShieldFillCheck />
       </a>
       <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
-        <BsBook />
+        <GiWallet />
       </a>
       <a
         href="#contact"

@@ -1,7 +1,9 @@
 header {
-  height: 42vh;
+  min-height: 25vh;
   padding-top: 7rem;
   overflow: unset;
+  margin-bottom: 20rem;
+  margin-top: 8rem;
 }
 
 .header__container {
@@ -62,19 +64,17 @@ header {
 /******************* MEDIA QUERIES (MEDIUM DEVICES) ******************** */
 @media screen and (max-width: 1024px) {
   header {
-    height: 50vh;
     padding-top: 4rem;
   }
 }
 
 /******************* MEDIA QUERIES (SMALL DEVICES) ******************** */
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media screen and (max-width: 599px) {
   header {
-    height: 29vh;
     background: var(--color-primary);
     padding: 2rem 0 2rem 0;
-    margin-top: 0rem;
-    margin-bottom: 7rem;
+    margin-top: 10rem;
+    margin-bottom: 20rem;
   }
 
   .cta {
@@ -85,42 +85,13 @@ header {
   .scroll__down {
     display: none;
   }
-}
 
-@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
-  header {
-    height: 35vh;
-    background: var(--color-primary);
-    padding: 2rem 0 2rem 0;
-    margin-top: 0rem;
-    margin-bottom: 14rem;
+  header .btn {
+    color: var(--color-primary);
+    background: var(--color-bg);
   }
 
-  .cta {
-    margin-top: 3.5rem;
-  }
-
-  .header__socials,
-  .scroll__down {
-    display: none;
-  }
-}
-
-@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  header {
-    height: 29vh;
-    background: var(--color-primary);
-    padding: 2rem 0 2rem 0;
-    margin-top: 0rem;
-    margin-bottom: 7rem;
-  }
-
-  .cta {
-    margin-top: 3.5rem;
-  }
-
-  .header__socials,
-  .scroll__down {
-    display: none;
+  header .btn:hover {
+    background-color: var(--color-bg-variant);
   }
 }

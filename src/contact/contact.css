@@ -64,7 +64,7 @@ textarea {
 }
 
 /******************* MEDIA QUERIES (SMALL DEVICES) ******************** */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
   .container.contact__container {
     width: var(--container-width-sm);
   }
