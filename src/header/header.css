@@ -69,11 +69,11 @@ header {
 }
 
 /******************* MEDIA QUERIES (SMALL DEVICES) ******************** */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 578px) {
   header {
     background: var(--color-primary);
     padding: 2rem 0 2rem 0;
-    margin-top: 10rem;
+    margin-top: 0rem;
     margin-bottom: 20rem;
   }
 
@@ -92,6 +92,6 @@ header {
   }
 
   header .btn:hover {
-    background-color: var(--color-bg-variant);
+    background-color: var(--color-white);
   }
 }
