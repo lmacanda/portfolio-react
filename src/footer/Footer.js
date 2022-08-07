@@ -27,7 +27,7 @@ export default function Footer() {
       <div className="footer__source">
         <small>
           <a
-            href="https://github.com/lmacanda/weather-app"
+            href="https://github.com/lmacanda/portfolio-react"
             target="_blank"
             rel="noopener noreferrer"
           >
