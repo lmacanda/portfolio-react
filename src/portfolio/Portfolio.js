@@ -31,7 +31,9 @@ export default function Portfolio() {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <a href={demo} target="blank">
+                  <img src={image} alt={title} />
+                </a>
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
