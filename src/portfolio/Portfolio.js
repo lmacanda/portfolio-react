@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "./../files/img1.jpg";
 import IMG2 from "./../files/img2.jpg";
+import IMG3 from "./../files/img3.jpg";
 
 let data = [
   {
@@ -17,6 +18,13 @@ let data = [
     title: "React Dictionary App",
     github: "https://github.com/lmacanda/dictionary-react",
     demo: "https://deft-cendol-c00d5b.netlify.app/",
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: "Interactive Credit Card",
+    github: "https://github.com/lmacanda/interactive_card",
+    demo: "https://peaceful-sunflower-f07d1c.netlify.app",
   },
 ];
 
