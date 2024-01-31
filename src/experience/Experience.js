@@ -36,7 +36,21 @@ export default function Experience() {
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
+                <h4>TypeScript</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
                 <h4>React</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>Next.Js</h4>
                 <small className="text-light">Junior</small>
               </div>
             </article>

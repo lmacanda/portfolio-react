@@ -10,14 +10,14 @@ let data = [
     image: IMG1,
     title: "React Weather App",
     github: "https://github.com/lmacanda/weather-react-1",
-    demo: "https://sprightly-figolla-2c1ee4.netlify.app/",
+    demo: "https://weather-react-1.vercel.app/",
   },
   {
     id: 2,
     image: IMG2,
     title: "React Dictionary App",
     github: "https://github.com/lmacanda/dictionary-react",
-    demo: "https://deft-cendol-c00d5b.netlify.app/",
+    demo: "https://dictionary-react-gamma.vercel.app/",
   },
   {
     id: 3,
