@@ -24,7 +24,7 @@ let data = [
     image: IMG3,
     title: "Interactive Credit Card",
     github: "https://github.com/lmacanda/interactive_card",
-    demo: "https://peaceful-sunflower-f07d1c.netlify.app",
+    demo: "https://interactive-card-smoky.vercel.app/",
   },
 ];
 
