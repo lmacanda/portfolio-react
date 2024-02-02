@@ -26,6 +26,13 @@ let data = [
     github: "https://github.com/lmacanda/interactive_card",
     demo: "https://interactive-card-smoky.vercel.app/",
   },
+  {
+    id: 4,
+    image: IMG4,
+    title: "E-Commerce Website",
+    github: "https://github.com/lmacanda/e-commerce",
+    demo: "https://e-commerce-sandy-iota.vercel.app/",
+  },
 ];
 
 export default function Portfolio() {

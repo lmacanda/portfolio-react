@@ -20,9 +20,9 @@ export default function About() {
             "When I was a child I remember doing art with my Commodore 64. I
             didn't know at the time that I was coding. Lately I looked at how it
             made me happy and I decided it was time to learn coding. I earned my
-            certification in Front End Development at SheCodes! My learning
-            journey is only beginning, I'm thrilled to learn more and open to
-            embrace all the potentiality and challenges of development."
+            certification in Front End Development at Jagaad Academy! My
+            learning journey is only beginning, I'm thrilled to learn more and
+            open to embrace all the potentiality and challenges of development."
           </p>
         </div>
       </div>
