@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "./../files/img1.jpg";
 import IMG2 from "./../files/img2.jpg";
 import IMG3 from "./../files/img3.JPG";
-import IMG4 from "./../files/img4.jpg";
+import IMG4 from "./../files/img4.jPG";
 
 let data = [
   {
