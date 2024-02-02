@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "./../files/img1.jpg";
 import IMG2 from "./../files/img2.jpg";
 import IMG3 from "./../files/img3.JPG";
+import IMG4 from "./../files/img4.JPG";
 
 let data = [
   {
@@ -25,6 +26,13 @@ let data = [
     title: "Interactive Credit Card",
     github: "https://github.com/lmacanda/interactive_card",
     demo: "https://interactive-card-smoky.vercel.app/",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "E-commerce Website",
+    github: "https://github.com/lmacanda/e-commerce",
+    demo: "https://e-commerce-sandy-iota.vercel.app/",
   },
 ];
 

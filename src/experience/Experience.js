@@ -57,6 +57,13 @@ export default function Experience() {
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
+                <h4>Redux</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Junior</small>
               </div>
