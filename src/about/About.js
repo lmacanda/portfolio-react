@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "./../files/portrait.jpg";
+import ME from "../files/hdd_9851223.svg";
 
 export default function About() {
   return (
