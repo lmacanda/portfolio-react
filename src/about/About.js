@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../files/hdd_9851223.svg";
+import ME from "../files/—Pngtree—girl at work_4466291.png";
 
 export default function About() {
   return (
@@ -9,10 +9,8 @@ export default function About() {
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="Me" />
-          </div>
+        <div className="about__me-image">
+          <img src={ME} alt="Me" />
         </div>
 
         <div className="about__content">

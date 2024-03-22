@@ -18,14 +18,9 @@
 }
 
 .about__me-image {
+  width: 150%;
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
-  transition: transform 0.3s ease; /* Add a transition for the transform property */
-}
-
-.about__me-image:hover {
-  transform: translateX(20px) rotate(0); /* Move 20px to the right on hover */
 }
 
 .about__content p {
